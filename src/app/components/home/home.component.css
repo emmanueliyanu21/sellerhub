@@ -131,3 +131,123 @@
     border: none;
     text-transform: uppercase;
 }
+
+.why-seller-content-img img{
+    max-width: 100%;
+}
+
+.why-seller-content-img {
+    text-align: center;
+}
+
+.why-seller-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.white-content p {
+    
+    letter-spacing: 0px;
+    font-size: 12px;
+    line-height: 1.8;
+    /* width: 30%; */
+    font-family: 'Gotham', sans-serif;
+    color: #727272;
+    opacity: 1;
+}
+
+.white-content h2 {
+    
+    letter-spacing: 0px;
+    font-size: 20px;
+    line-height: 1.8;
+    /* width: 30%; */
+    font-family: 'Gotham', sans-serif;
+    color: #727272;
+    padding-bottom: 0px;
+    margin-bottom: 0px!important;
+}
+
+.white-content {
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    padding: 10px 30px 10px 30px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.successful-stories span {
+    background: #02796F 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    font-family: 'Gotham', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-style: italic;
+    padding: 12px 20px;
+}
+
+.successful-stories-content h2{
+    font-family: 'Gotham', sans-serif;
+    color: #161616;
+    font-size: 32px;
+}
+
+.successful-stories-content p{
+    font-family: 'Gotham', sans-serif;
+    color: #161616;
+    font-size: 15px;
+    width: 80%;
+    line-height: 1.8;
+}
+
+.successful-stories-name h2{
+    font-size: 25px;
+    font-family: 'Gotham', sans-serif;
+    letter-spacing: 0px;
+    color: #161616;
+    padding-bottom: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+.successful-stories-name p{
+    font-size: 15px;
+    font-family: 'Gotham', sans-serif;
+    letter-spacing: 0px;
+    color: #02796F;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.successful-stories-wrapper {
+    background-color: #fff;
+    padding: 70px 40px 30px 10rem;
+    /* padding-right: 40px; */
+}
+
+.successful-stories {
+    background-color: #f0eeee;
+    padding-bottom: 40px;
+   
+}
+
+.black-box {
+    background-color: #161616;
+    width: 10rem;
+    height: 22rem;
+}
+
+.wrap {
+    display: flex;
+    position: relative;
+}
+
+.wrap img {
+    position: absolute;
+    max-width: 20%;
+    top: 5rem;
+    left: 4rem;
+}
