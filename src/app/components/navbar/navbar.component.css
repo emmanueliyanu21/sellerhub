@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/gotham');
+@import 'animate.css';
 
 body {
     font-family: 'Gotham', sans-serif;
@@ -7,4 +8,87 @@ body {
 .container {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav {
+    background-color: #f0eeee;  
+}
+
+.navbar-nav {
+    display: flex!important;
+    /* align-content: flex-end; */
+    justify-content: flex-end!important;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar-nav li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Gotham', sans-serif;
+    font-size: 14px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #151716;
+}
+
+.navbar-nav li a:hover {
+    color: #02796F;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+    cursor: pointer;
+}
+
+.navbar-nav {
+    /* padding-top: -10px; */
+    padding-top: 5px;
+    display: flex;
+}
+
+.navbar-brand img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-container {
+    display: flex;
+    /* align-content: flex-end!important; */
+    align-content: space-between!important;
+}
+
+.btn-register a {
+    border: 1px solid #151716;
+    border-radius: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    text-transform: uppercase;
+    /* margin-left: 10px; */
+    font-family: 'Gotham', sans-serif;
+}
+
+.btn-register a:hover {
+    background-color: #02796F;
+    color: #fff!important;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+    cursor: pointer;
 }
