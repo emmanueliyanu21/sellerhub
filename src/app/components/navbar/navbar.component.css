@@ -92,3 +92,9 @@ body {
     transition: background 0.5s linear;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .nav .navbar-nav {
+        display: none!important;
+    }
+}

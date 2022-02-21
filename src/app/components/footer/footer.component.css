@@ -14,6 +14,8 @@ body {
     align-content: space-between;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
     /* flex-direction: column; */
 }
 
@@ -25,6 +27,7 @@ body {
     font-size: 16px;
     color: #02796F;
     opacity: 1;
+    padding-bottom: 15px;
 }
 
 .ul-list {
