@@ -1,5 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
 @import 'animate.css';
+@import url('http://fonts.cdnfonts.com/css/gotham');
 
 * {
     margin: 0;
@@ -392,10 +392,6 @@ body {
     
 }
 
-/* Navbar */
-@import url('http://fonts.cdnfonts.com/css/gotham');
-@import 'animate.css';
-
 body {
     font-family: 'Gotham', sans-serif;
 }
@@ -497,9 +493,6 @@ body {
 }
 
 /* Footer */
-
-@import url('http://fonts.cdnfonts.com/css/gotham');
-
 body {
     font-family: 'Gotham', sans-serif;
 }
